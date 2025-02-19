@@ -25,7 +25,3 @@ unzip protoc-25.2-linux-x86_64.zip -d "$HOME/.local"
 rm protoc-25.2-linux-x86_64.zip
 
 export PATH="$HOME/.local/bin:$PATH"
-
-screen -S nexus
-
-curl https://cli.nexus.xyz/ | sh
