@@ -12,7 +12,7 @@ apt install screen
 
 source "$HOME/.cargo/env"
 
-echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
+sudo echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
 
 rustup update
 
@@ -22,6 +22,6 @@ curl -LO https://github.com/protocolbuffers/protobuf/releases/download/v25.2/pro
 
 unzip protoc-25.2-linux-x86_64.zip -d "$HOME/.local"
 
-rm protoc-25.2-linux-x86_64.zip
+sudo rm protoc-25.2-linux-x86_64.zip
 
 export PATH="$HOME/.local/bin:$PATH"
