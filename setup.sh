@@ -24,4 +24,4 @@ unzip protoc-25.2-linux-x86_64.zip -d "$HOME/.local"
 
 sudo rm protoc-25.2-linux-x86_64.zip
 
-export PATH="$HOME/.local/bin:$PATH"
+sudo export PATH="$HOME/.local/bin:$PATH"
